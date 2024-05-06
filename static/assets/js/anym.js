@@ -22,7 +22,7 @@
 })();
 
 // Clickoff Check
-var defaultTitle = 'Doge | V4';
+var defaultTitle = 'Ezic | V9';
 var defaultIcon = '/assets/img/doge.jpg';
 var storedTitle = localStorage.getItem('tabTitle');
 var storedIcon = localStorage.getItem('tabIcon');
