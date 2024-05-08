@@ -45,6 +45,7 @@ form {
 }
 
 .button-6 {
+   
   --ripple-background: rgb(185, 185, 185);
   --ripple-opacity: 2.0;
   --ripple-duration: 300ms;
@@ -61,7 +62,7 @@ form {
   font-size: 15px;
   line-height: 1.25;
   margin: -5px;
-  margin-top: 3px;
+   margin-top: 10px;
   margin-left: 10px;
   padding: 0px 10px;
   margin-right: 20px;
