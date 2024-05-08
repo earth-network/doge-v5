@@ -76,6 +76,8 @@ if (window.location.pathname === "/index.html" || window.location.pathname === "
       " we also provide pirating services, email odmstag@gmail.com for details" ,
       " dam fuck these chromebooks",
       "Back at it bitches", 
+      "the order awaits",
+      "war wwithout reason",
       
     ];
     
