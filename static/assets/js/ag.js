@@ -158,7 +158,7 @@ function cookieClicker() {
 }
 
 function rBowl() {
-  document.title = 'Ezic | V6';
+  document.title = 'Ezic | V9';
   var cloakcheckScript = document.createElement("script");
   cloakcheckScript.src = "/assets/js/cloak.js";
   document.head.appendChild(cloakcheckScript);
