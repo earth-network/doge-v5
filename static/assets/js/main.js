@@ -77,7 +77,7 @@ if (window.location.pathname === "/index.html" || window.location.pathname === "
       " dam fuck these chromebooks",
       "Back at it bitches", 
       "the order awaits",
-      "war wwithout reason",
+      "war without reason",
       
     ];
     
