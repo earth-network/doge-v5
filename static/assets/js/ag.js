@@ -302,3 +302,8 @@ function crowdRun3d() {
 function worldsHardestGm() {
   openAg('https://assets.surfdoge.pro/assets/worldshardestgm.html');
 }
+/*other creators*/
+
+function imb() {
+  openAg('https://google.com');
+
