@@ -1,4 +1,4 @@
-function loadInc() {
+function loadGms() {
     const squareBtns = document.querySelectorAll('.square_btn');
   
     const observer = new IntersectionObserver(entries => {
@@ -19,8 +19,8 @@ function loadInc() {
     btn.classList.add('loaded');
 }
 
-function addInc(name, imageUrl, onClickFunction, width, height) {
-    var incContainer = document.getElementById('incContainer');
+function addGms(name, imageUrl, onClickFunction, width, height) {
+    var gmsContainer = document.getElementById('gmsContainer');
     var linkElement = document.createElement('a');
     linkElement.href = "#";
     linkElement.className = "square_btn";
@@ -47,21 +47,21 @@ function addInc(name, imageUrl, onClickFunction, width, height) {
     linkElement.appendChild(brElement);
     linkElement.appendChild(textElement);
 
-    incContainer.appendChild(linkElement);
+    gmsContainer.appendChild(linkElement);
 }
 
-var inc = {
+var gms = {
 
   'GeForce Now': { imageUrl: "/assets/img/geforcenow.webp", onClick: geforce },
   'Roblox': { imageUrl: "/assets/img/roblox.webp", onClick: rbx },
   'Test' : { imageUrl: "/assets/img/test.jpeg", OnClick: imb },
 };
 
-for (var incName in inc) {
-    if (inc.hasOwnProperty(incName)) {
+for (var gmsName in gms) {
+    if (gms.hasOwnProperty(gmsName)) {
       try {
-        const { imageUrl, onClick, width, height } = inc[incName];
-        addinc(incName, imageUrl, onClick, width, height);
+        const { imageUrl, onClick, width, height } = gms[gmsName];
+        addgms(gmsName, imageUrl, onClick, width, height);
         fetchMessage.style.display = 'none';
       } catch (error) {
         fetchMessage.innerText = 'Failed to load, please refresh.';
@@ -94,7 +94,7 @@ document.getElementById('searchApps').addEventListener('input', function(event) 
     }
 });
 
-loadInc();
+loadGms();
 
 var searchBar = document.querySelector('.searchbar');
 var searchIcon = document.getElementById('search');
