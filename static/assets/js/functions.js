@@ -119,7 +119,7 @@ function tabCloak() {
 }
 
 function disableTabCloak() {
-  var newTitle = "Doge | V4";
+  var newTitle = "Ezic | V9";
   var newIcon = "/assets/img/doge.jpg";
 
   localStorage.setItem("tabTitle", newTitle);
